@@ -1,0 +1,318 @@
+***********************************************************************************************************************************
+												 START OF CODES.TXT
+***********************************************************************************************************************************
+First Name 	: Ashwin Kumar
+Last Name	: Gopi Valliammal
+Email 		: gopivall@usc.edu
+Date		: July-17-2009
+Course 		: CSCI 561 Summer 09
+
+def depthFirstSearch(problem):
+	from game import Directions
+ 	s = Directions.SOUTH	# ASSIGNING DIRECTIONS
+  	w = Directions.WEST 	# ASSIGNING DIRECTIONS
+	n = Directions.NORTH	# ASSIGNING DIRECTIONS
+	e = Directions.EAST 	# ASSIGNING DIRECTIONS
+	moves=[] 				# MOVES LIST THAT WILL BE RETURNED AT THE END OF THIS DFS FUCNTION CALL
+	backTrack={} 			# BACKTRACK DICTIONARY TO HOLD THE PARENT CHILD RELATIONSHIP THAT IS USED TO BACK TRACK
+	openStack=util.Stack() 	# OPEN STACK TO PUSH THE EXPANDED NODES
+	closedQ=util.Queue()	# CLOSED QUEUE TO MAINTAIN THE CLOSED NODES ( VISISTED NODES )
+	finalMovStack=util.Stack()	# A STACK TO KEEP THE FINAL LIST OF MOVES WHICH A SUBSET OF THE CLOSED QUEUE
+	start=problem.getStartState()				# GETTING THE START STATE
+	startNode=(start,'None',0)					# CREATING A TEMPORARY START NODE
+	if(problem.isGoalState(start)): 			# CHECKING IF THE START IS THE GOAL STATE
+		return 									# IF YES RETURNING
+	startSuccessor=problem.getSuccessors(start) # GETTING THE SUCCESSORS OF START STATE
+	for node in startSuccessor:
+		parentChild={node:startNode} 			# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+		openStack.push(node)					# PUSING THE EXPANDED NODES INTO THE STACK
+		backTrack.update(parentChild)			# UPDATING THE BACK TRACK DICT
+	while (not(openStack.isEmpty())):			# WHILE THE STACK IS NOT EMPTY REPEAT THE BELOW CODE SECTION
+		currNode=openStack.pop()				# POPING AN ELEMENT FROM THE OPEN LIST(STACK)
+		closedQ.push(currNode)					# PUSHIN THAT TO THE CLOSED QUEUE
+		if (problem.isGoalState(currNode[0])):	# CHECKING IF ITS THE GOAL NODE
+			goalNode=currNode;					# IF YES SAVING IT IN A VARIABLE
+			break
+		children=problem.getSuccessors(currNode[0]) # GETTING ITS CHILDREN
+		for child in children:
+			if(closedQ.list.count(child)==0 and openStack.list.count(child)==0):
+				parentchild={child:currNode} 	# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+				openStack.push(child)			# ADDING THE UNIQUE CHILDRENS TO THE OPEN STACK
+				backTrack.update(parentchild) 	# APPENDING IT TO BACKTRACK LIST
+	tempNode=goalNode
+	# CODE SEGMENT TO SELECT THE FINAL LIST OF MOVES FROM THE BACK TRACK DICT
+	while(not(tempNode==startNode)): 
+		finalMovStack.push(tempNode)
+		tempNode=backTrack[tempNode]
+	while (not(finalMovStack.isEmpty())): # CREATING THE FINAL MOVES LIST
+		item=finalMovStack.pop()
+		if (item[1]=='West'):
+			moves.append(w)
+		elif (item[1]=='North'):
+			moves.append(n)
+		elif (item[1]=='South'):
+			moves.append(s)
+		elif (item[1]=='East'):
+			moves.append(e)
+	return moves # RETURNING THE MOVES LIST
+	util.raiseNotDefined()
+
+def breadthFirstSearch(problem):
+	from game import Directions
+  	s = Directions.SOUTH 		# ASSIGNING DIRECTIONS
+  	w = Directions.WEST 		# ASSIGNING DIRECTIONS
+	n = Directions.NORTH 		# ASSIGNING DIRECTIONS
+	e = Directions.EAST 		# ASSIGNING DIRECTIONS
+	moves=[] 					# MOVES LIST THAT WILL BE RETURNED AT THE END OF THIS DFS FUCNTION CALL
+	backTrack={} 				# BACKTRACK DICTIONARY TO HOLD THE PARENT CHILD RELATIONSHIP THAT IS USED TO BACK TRACK
+	openQ=util.Queue() 			# OPEN QUEUE TO PUSH THE CHILDREN
+	closedQ=util.Queue()		# CLOSED QUEUE TO MAINTAIN THE CLOSED STATES
+	finalMovStack=util.Stack()	# A STACK TO KEEP THE FINAL LIST OF MOVES WHICH A SUBSET OF THE CLOSED QUEUE
+	start=problem.getStartState()	# GETTING THE START STATE
+	startNode=(start,'None',0)		# CREATING A TEMPORARY START NODE
+	if(problem.isGoalState(start)): # CHECKING IF THE START IS THE GOAL STATE
+		return 						# IF YES RETURNING
+	startSuccessor=problem.getSuccessors(start) # GETTING THE SUCCESSORS OF START STATE
+	for node in startSuccessor:
+		parentChild={node:startNode} 			# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+		openQ.push(node)						# PUSING IT INTO THE OPEN LIST(QUEUE)
+		backTrack.update(parentChild)			# UPDATING THE BACK TRACK DICT
+	while (not(openQ.isEmpty())):				# WHILE THE STACK IS NOT EMPTY REPEAT THE BELOW CODE SECTION
+		currNode=openQ.pop()					# POP FROM THE OPEN LIST (QUEUE)
+		closedQ.push(currNode)					# PUSH IT INTO THE CLOSED LIST (QUEUE)
+		if (problem.isGoalState(currNode[0])): 	# CHECKING IF ITS THE GOAL NODE
+			goalNode=currNode;					# IF YES SAVING IT IN A VARIABLE
+			break
+		children=problem.getSuccessors(currNode[0])
+		for child in children:
+			if(openQ.list.count(child)==0 and closedQ.list.count(child)==0):
+				parentchild={child:currNode} 	# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+				openQ.push(child)				# ADDING THE UNIQUE CHILDRENS TO THE OPEN QUEUE
+				backTrack.update(parentchild) 	# APPENDING IT TO BACKTRACK LIST
+	tempNode=goalNode
+	# CODE SEGMENT TO SELECT THE FINAL LIST OF MOVES FROM THE BACK TRACK DICT
+	while(not(tempNode==startNode)): 
+		finalMovStack.push(tempNode)
+		tempNode=backTrack[tempNode]
+	while (not(finalMovStack.isEmpty())): 		# CREATING THE FINAL MOVES LIST
+		item=finalMovStack.pop()
+		if (item[1]=='West'):
+			moves.append(w)
+		elif (item[1]=='North'):
+			moves.append(n)
+		elif (item[1]=='South'):
+			moves.append(s)
+		elif (item[1]=='East'):
+			moves.append(e)
+	return moves 								# RETURNING THE MOVES LIST
+  	util.raiseNotDefined()
+      
+def uniformCostSearch(problem):
+	from game import Directions
+  	s = Directions.SOUTH 			# ASSIGNING DIRECTIONS
+  	w = Directions.WEST 			# ASSIGNING DIRECTIONS
+	n = Directions.NORTH 			# ASSIGNING DIRECTIONS
+	e = Directions.EAST 			# ASSIGNING DIRECTIONS
+	moves=[] 						# MOVES LIST THAT WILL BE RETURNED AT THE END OF THIS DFS FUCNTION CALL
+	backTrack={} 					# BACKTRACK DICTIONARY TO HOLD THE PARENT CHILD RELATIONSHIP THAT IS USED TO BACK TRACK
+	openQ=util.PriorityQueue() 		# OPEN PRIORITY QUEUE TO PUSH THE CHILDREN
+	simpleQ=util.Queue()			# TEMPORARY SIMPLE QUEUE
+	closedQ=util.Queue()			# CLOSED QUEUE TO MAINTAIN THE CLOSED STATES
+	finalMovStack=util.Stack()		# A STACK TO KEEP THE FINAL LIST OF MOVES WHICH A SUBSET OF THE CLOSED QUEUE
+	distFrmRoot={}					# DICTIONARY TO KEEP TRACK OF THE DISTANCE FROM THE ROOT
+	closedPriority={}				# DICTIONARY TO KEEP TRACK OF THE PRIORITY OF THE NODES IN THE CLOSED LIST
+	start=problem.getStartState()	# GETTING THE START STATE
+	startNode=(start,'None',0)		# CREATING A TEMPORARY START NODE
+	if(problem.isGoalState(start)): # CHECKING IF THE START IS THE GOAL STATE
+		return 						# IF YES RETURNING
+	startSuccessor=problem.getSuccessors(start) # GETTING THE SUCCESSORS OF START STATE
+	for node in startSuccessor:
+		parentChild={node:startNode} 			# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+		dist=node[2]
+		tmpDict={node:dist}
+		distFrmRoot.update(tmpDict)	 			# UPDATING THE DIST FROM ROOT DICTIONARY
+		openQ.push(node,dist)					# PUSING IT INTO THE OPEN PRIORITY QUEUE
+		simpleQ.push(node)						# PUSING IT INTO THE SIMPLE QUEUE
+		backTrack.update(parentChild)			# UPDATING THE BACK TRACK DICT
+	while (not(openQ.isEmpty())):				# WHILE THE STACK IS NOT EMPTY REPEAT THE BELOW CODE SECTION
+		(currNode,closedPri)=openQ.pop()		# POP THE FIRST ELEMENT FROM THE PRIORITY QUEUE
+		closedQ.push(currNode)					# PUSH IT INTO THE CLOSED QUEUE
+		closedPriority.update({currNode:closedPri})
+		if (problem.isGoalState(currNode[0])): 	# CHECKING IF ITS THE GOAL NODE
+			goalNode=currNode;					# IF YES SAVING IT IN A VARIABLE
+			break
+		children=problem.getSuccessors(currNode[0])
+		for child in children:
+			if(closedQ.list.count(child)==0 and simpleQ.list.count(child)==0):
+				parentchild={child:currNode} 		# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+				dist=child[2]+distFrmRoot[currNode]	# CALCULAGTING THE DISTANCE FROM THE ROOT
+				tempDict={child:dist}
+				distFrmRoot.update(tempDict)		# UPDATING THE DIST FROM THE ROOT
+				openQ.push(child,dist)				# ADDING THE UNIQUE CHILDRENS TO THE OPEN STACK
+				simpleQ.push(child)
+				backTrack.update(parentchild) 		# APPENDING IT TO BACKTRACK LIST
+			elif(simpleQ.list.count(child)>0):
+				#  CODE SEGEMENT TO CHECK IF A NODE NEED TO REPLACED OPEN LIST OR NOT
+				priority=distFrmRoot[child]
+				parentchild={child:currNode} 		# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+				dist=child[2]+distFrmRoot[currNode]
+				if(dist<priority):
+					tempDict={child:dist}
+					del distFrmRoot[child]
+					distFrmRoot.update(tempDict)
+					openQ.push(child,dist)			# ADDING THE UNIQUE CHILDRENS TO THE OPEN PRIORITY QUEUE
+					simpleQ.push(child)
+					del backTrack[child]			# DELETING THE PREVIOUS PARENT
+					backTrack.update(parentchild)   # APPENDING IT TO BACKTRACK LIST
+			elif(closedQ.list.count(child)>0):
+				#  CODE SEGEMENT TO CHECK IF A NODE NEED TO REPLACED CLOSED LIST OR NOT
+				#print "closed Q changed"
+				cp=closedPriority[child]
+				priority=distFrmRoot[child]
+				parentchild={child:currNode}
+				dist=child[2]+distFrmRoot[currNode]
+				if(dist<cp):
+					del distFrmRoot[child]
+					distFrmRoot.update({child:dist})		
+					del backTrack[child]				# APPENDING THE PREVIOUS PARENT
+					backTrack.update(parentchild) 		# APPENDING IT TO BACKTRACK LIST
+							
+	tempNode=goalNode
+	#print "..... back track :",backTrack
+	# CODE SEGMENT TO SELECT THE FINAL LIST OF MOVES FROM THE BACK TRACK DICT
+	while(not(tempNode==startNode)): 
+		finalMovStack.push(tempNode)
+		tempNode=backTrack[tempNode]
+	while (not(finalMovStack.isEmpty())): # CREATING THE FINAL MOVES LIST
+		item=finalMovStack.pop()
+		if (item[1]=='West'):
+			moves.append(w)
+		elif (item[1]=='North'):
+			moves.append(n)
+		elif (item[1]=='South'):
+			moves.append(s)
+		elif (item[1]=='East'):
+			moves.append(e)
+	return moves # RETURNING THE MOVES LIST
+
+  	util.raiseNotDefined()
+
+def nullHeuristic(state, problem=None):
+  """
+  A heuristic function estimates the cost from the current state to the nearest
+  goal in the provided SearchProblem.  This heuristic is trivial.
+  """
+  return 0
+
+def aStarSearch(problem, heuristic=nullHeuristic):
+	from game import Directions
+  	s = Directions.SOUTH 			# ASSIGNING DIRECTIONS
+  	w = Directions.WEST 			# ASSIGNING DIRECTIONS
+	n = Directions.NORTH 			# ASSIGNING DIRECTIONS
+	e = Directions.EAST 			# ASSIGNING DIRECTIONS
+	moves=[] 						# MOVES LIST THAT WILL BE RETURNED AT THE END OF THIS DFS FUCNTION CALL
+	backTrack={} 					# BACKTRACK DICTIONARY TO HOLD THE PARENT CHILD RELATIONSHIP THAT IS USED TO BACK TRACK
+	distFrmRoot={} 					# DISTFROMROOT A DICTIONARY TO KEEP TRACK OF THE LENTH OF NODES FROM THE ROOT
+	FnDict={} 						
+	closedPriority={}
+	openQ=util.PriorityQueue() 	# OPEN STACK TO PUSH THE CHILDREN
+	simpleQ=util.Queue()		# A SIMPLE QUEUE USED TO DETECT LOOPS
+	closedQ=util.Queue()		# CLOSED QUEUE TO MAINTAIN THE CLOSED STATES
+	finalMovStack=util.Stack()	# A STACK TO KEEP THE FINAL LIST OF MOVES WHICH A SUBSET OF THE CLOSED QUEUE
+	start=problem.getStartState()
+	startNode=(start,'None',0)	# CREATING A DUMMY START NODE
+	if(problem.isGoalState(start)): 			# CHECKING IF THE START IS THE GOAL STATE
+		return # IF YES RETURNING
+	startSuccessor=problem.getSuccessors(start) # GETTING THE SUCCESSORS OF START STATE
+	for node in startSuccessor:
+		parentChild={node:startNode} 		# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+		Gn=node[2]							# g(n) DIST FROM ROOT NODE TO REACH CURRENT NODE
+		tempDist={node:Gn}
+		Hn=heuristic(node[0],problem)		# h(n) a HEURISTIC FUNCTION TO AID GREEDY APPROACH
+		Fn=Gn+Hn							# f(n)=g(n)+h(n)  FORMULA FOR HEURISTIC APPROACH
+		openQ.push(node,Fn)					# PUSING IN TO THE OPEN LIST WHICH IS A PRIORITY QUEUE
+		tempFn={node:Fn}
+		simpleQ.push(node)					# PUSHING TO THE SIMPLE QUEUE
+		backTrack.update(parentChild)		# UPDATING THE BACK TRACK DICT
+		distFrmRoot.update(tempDist)		# UPDATING THE DIST FROM ROOT DICT
+		FnDict.update(tempFn)
+	while (not(openQ.isEmpty())):			# WHILE THE PRIORITY QUEUE IS NOT EMPTY REPEAT THE BELOW CODE SECTION
+		(currNode,closedPri)=openQ.pop()
+		closedQ.push(currNode)
+		closedPriority.update({currNode:closedPri})
+		if (problem.isGoalState(currNode[0])): 	# CHECKING IF ITS THE GOAL NODE
+			goalNode=currNode;					# IF YES SAVING IT IN A VARIABLE
+			break
+		children=problem.getSuccessors(currNode[0])
+		for child in children:
+			if(closedQ.list.count(child)==0 and simpleQ.list.count(child)==0):
+				#print " if if if"
+				parentChild={child:currNode} 		# RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+				#print "parent child is ",parent
+				Gn=child[2]+distFrmRoot[currNode]
+				tempDist={child:Gn}
+				Hn=heuristic(child[0],problem)		# h(n) a HEURISTIC FUNCTION TO AID GREEDY APPROACH
+				Fn=Gn+Hn							# f(n)=g(n)+h(n)  FORMULA FOR HEURISTIC APPROACH
+				openQ.push(child,Fn)				# PUSING IN TO THE OPEN LIST WHICH IS A PRIORITY QUEUE
+				tempFn={child:Fn}
+				simpleQ.push(child)					# PUSHING TO THE SIMPLE QUEUE
+				backTrack.update(parentChild)		# UPDATING THE BACK TRACK DICT
+				#print "backTrack is ",backTrack
+				distFrmRoot.update(tempDist)		# UPDATING THE DIST FROM ROOT DICT
+				FnDict.update(tempFn)
+			elif(simpleQ.list.count(child)>0):
+				#  CODE SEGEMENT TO CHECK IF A NODE NEED TO REPLACED OPEN LIST OR NOT
+				#print " elif elif elif"
+				parentChild={child:currNode} # RECORDING THE PARENT CHILD RELATIONSHIP FOR BACK TRACKING FROM THE GOAL STATE
+				#print "parent child is ",parent
+				Gn=child[2]+distFrmRoot[currNode]
+				tempDist={child:Gn}
+				Hn=heuristic(child[0],problem)		# h(n) a HEURISTIC FUNCTION TO AID GREEDY APPROACH
+				Fn=Gn+Hn
+				oldPriority=FnDict[child]
+				if(oldPriority>Fn):
+					openQ.push(child,Fn)
+					del backTrack[child]			# CHANGING THE PARENT
+					backTrack.update(parentChild)	# UPDATING THE PARENT
+					del FnDict[child]
+					tempFn={child:Fn}
+					FnDict.update(tempFn)
+			elif(closedQ.list.count(child)>0):
+				#  CODE SEGEMENT TO CHECK IF A NODE NEED TO REPLACED CLOSED LIST OR NOT
+				#print "closed Q changed"
+				cp=closedPriority[child]
+				parentchild={child:currNode}
+				Gn=child[2]+distFrmRoot[currNode]
+				tempDist={child:Gn}
+				Hn=heuristic(child[0],problem)		# h(n) a HEURISTIC FUNCTION TO AID GREEDY APPROACH
+				Fn=Gn+Hn
+				if(Fn<cp):
+					del distFrmRoot[child]
+					distFrmRoot.update(tempDist)	
+					del backTrack[child]			# CHANGING THE PARENT	
+					backTrack.update(parentchild) 	# APPENDING IT TO BACKTRACK LIST
+						
+	tempNode=goalNode
+	#print "back track is ",backTrack
+	# CODE SEGMENT TO SELECT THE FINAL LIST OF MOVES FROM THE BACK TRACK DICT
+	while(not(tempNode==startNode)): 
+		finalMovStack.push(tempNode)
+		#print "..........", tempNode
+		tempNode=backTrack[tempNode]
+	while (not(finalMovStack.isEmpty())): # CREATING THE FINAL MOVES LIST
+		item=finalMovStack.pop()
+		if (item[1]=='West'):
+			moves.append(w)
+		elif (item[1]=='North'):
+			moves.append(n)
+		elif (item[1]=='South'):
+			moves.append(s)
+		elif (item[1]=='East'):
+			moves.append(e)
+	return moves # RETURNING THE MOVES LIST
+		
+  	util.raiseNotDefined()
+
+*******************************************************************************************************************************
+													END OF CODES.TXT
+*******************************************************************************************************************************

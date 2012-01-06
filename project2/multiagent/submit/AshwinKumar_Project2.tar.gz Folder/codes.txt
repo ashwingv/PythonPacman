@@ -1,0 +1,210 @@
+***********************************************************************************************************************************
+						START OF CODES.TXT
+***********************************************************************************************************************************
+
+First Name 	: Ashwin Kumar
+Last Name	: Gopi Valliammal
+Email 		: gopivall@usc.edu
+Date		: Aug-2-2009
+Course 		: CSCI 561 Summer 09
+
+Question 1: EVALUATION FUNCTION
+================================
+
+def evaluationFunction(self, currentGameState, action):
+
+    successorGameState = currentGameState.generatePacmanSuccessor(action)
+    minX=0
+    minY=0
+    maxY=successorGameState.data.layout.height-1
+    maxX=successorGameState.data.layout.width-1
+    pacPos=successorGameState.getPacmanPosition()
+    gPos=successorGameState.getGhostPositions()
+    pacX=pacPos[0]
+    pacY=pacPos[1]
+    food=successorGameState.getFood()
+    # IF THE GHOST IS NEAR THE PACMAN THEN THE ONLY INTENSTION PACMAN IS TO STAY ALIVE SO RETUTNING 
+    # NEGATIVE INFINITY T
+    for ghostPosition in gPos:
+      if (ghostPosition[0]==pacX+1 and ghostPosition[1]==pacY):
+        return float('-inf')
+      elif (ghostPosition[0]==pacX-1 and ghostPosition[1]==pacY):
+        return float('-inf')
+      elif (ghostPosition[0]==pacX and ghostPosition[1]==pacY+1):
+        return float('-inf')
+      elif (ghostPosition[0]==pacX and ghostPosition[1]==pacY-1):
+        return float('-inf')
+      else:
+        return successorGameState.getScore()
+    # IF THERE ARE NO GHOST NEAR THE PACMAN THEN WE CAN CONSIDER THE FOOD LOCATIONS 
+    # THE FOOD LOCATIONS ARE CONSIDER AND GAME SCORES ARE RETURNED 
+    if ((food[pacX+1][pacY]==True) and (pacX+1 < maxX)):
+      return successorGameState.getScore()
+    elif ((food[pacX-1][pacY]==True) and (pacX-1 > minX)) :
+      return successorGameState.getScore()
+    elif ((food[pacX][pacY+1]==True) and  (pacY+1 < maxY)):
+      return successorGameState.getScore()
+    elif ((food[pacX][pacY-1]==True) and (pacY-1 > minY)) :
+	  return successorGameState.getScore()
+    else:
+      return float('inf')
+    util.raiseNotDefined()
+    
+
+Question 2: MINIMAX AGENT
+==========================
+class MinimaxAgent(MultiAgentSearchAgent):
+  treeDepth=0    			# GLOBAL STATIC VARIABLE TO KEEP TRACK OF THE TREE DEPTH
+  numGAgents=0        			# GLOBAL STATIC VARIABLE TO KEEP TRACK OF THE TOTAL NUMBER OF GHOST AGENTS
+  finalMoves={}             		# A GLOBAL STATIC DICTIONARY TO KEEP TRACK OF THE STATE AND ACTION PAIR
+ 
+  def Max(self,x,y):        		# FUNCTION TO RETURN THE MAX OF TWO NUMBERS
+    if(x>y):
+     return x
+    else:
+     return y
+
+ 
+  def Min(self,x,y):        		# FUNCTION TO RETURN THE MIN OF TWO NUMBERS
+    if(x<y):
+      return x
+    else:
+      return y
+
+
+  def MaxValue(self,state,tmpdepth):			# MAX_VALUE FUNCTION TAKING GAME STATE AND DEPTH AS ITS ARGUEMENT
+    if(tmpdepth==0):					# IF THE DEPTH IS ZERO RETURN THE GAME'S SCORE
+      return state.getScore()
+    v=float('-inf')                  			# ASSIGNING MINUS INFINITY TO V
+    pacLegalActions=state.getLegalActions(0)    	# GET PACMANS LEGAL ACTIONS
+    if Directions.STOP in pacLegalActions: pacLegalActions.remove(Directions.STOP) # REMOVING STOP IF PRESENT IN LEGAL ACTIONS
+    pacSuccessors = [(state.generateSuccessor(0, Paction), Paction) for Paction in pacLegalActions] # PACS SUCC STATES
+    for nextPstate, Paction in pacSuccessors:     	# CHECKING ALL THE NEXT GAME STATES
+        tmpV=self.MinValue(nextPstate,1,tmpdepth) 	# FOR EACH OF ITS SUCCESSOR STATES CALLING MIN_VALUE FUNCTION
+        if(tmpdepth==self.depth):					
+          MinimaxAgent.finalMoves.update({tmpV:(nextPstate,Paction)}) # UPDATING THE GLOBAL DICT IF THE LEVEL = SELF.DEPTH
+        v=self.Max(v,tmpV)    				# CALLING MAX
+    return v
+    util.raiseNotDefined()
+   
+  def MinValue(self,minState,gIndex,tmpdepth):   # MIN_VALUE FUNCTION TAKING THE GHOST INDEX AND TMP TREE DEPTH AND GAME STATE 
+    currIndex=gIndex
+    if(tmpdepth==0):				# CHECKING THE CONDITION FOR LEAF STATE
+      tmp=scoreEvaluationFunction(minState)
+      return minState.getScore()
+    v=float('inf')				# ASSIGNING MINUS INFINITY TO V
+    if(currIndex<MinimaxAgent.numGAgents):	# IF THERE ARE MORE THAN ONE GHOST
+      gLegalActions=minState.getLegalActions(currIndex)
+      gSuccessors = [(minState.generateSuccessor(currIndex, Gaction), Gaction) for Gaction in gLegalActions]
+      if (len(gSuccessors)==0):
+        return minState.getScore()				# IF WE GET THE SUCCESSOR STATE TO BE EMPTY CALLING GET SCORE FUNCTION
+      for nextGstate, Gaction in gSuccessors:
+        tmpV=self.MinValue(nextGstate,currIndex+1,tmpdepth) # CALLING MIN_VALUE FOR THE NEXT GHOST
+        v=self.Min(v,tmpV)
+    elif(tmpdepth>0):							# IF I AM THE LAST GHOST AND IF THE DEPTH IS > 0 MUST CALL MAX_VALUE FUNCTION
+      tmpdepth=tmpdepth-1
+      gLegalActions=minState.getLegalActions(currIndex)
+      gSuccessors = [(minState.generateSuccessor(currIndex, Gaction), Gaction) for Gaction in gLegalActions]
+      if (len(gSuccessors)==0):					# IF WE GET THE SUCCESSOR STATE TO BE EMPTY CALLING GET SCORE FUNCTION
+        return minState.getScore()
+      for nextGstate, Gaction in gSuccessors:
+        tmpV=self.MaxValue(nextGstate,tmpdepth)	# CALLING MAX_VALUE FUNCTION FOR PACMANS MOVE
+        v=self.Min(v,tmpV)
+    return v
+    util.raiseNotDefined()
+     
+  def getAction(self, gameState):
+    MinimaxAgent.numGAgents=gameState.getNumAgents()-1    # STATIC VARIABLES TO TRACK OF THE NUMBER OF GHOST IN THE MAZE
+    MinimaxAgent.treeDepth=self.depth
+    MinimaxAgent.finalMoves={}
+    move=self.MaxValue(gameState,MinimaxAgent.treeDepth)  # CALLING MAX_VALUE FUNCTION INITIALLY
+    return MinimaxAgent.finalMoves[move][1]
+    util.raiseNotDefined()
+ 
+
+QUESTION 3: ALPHA BETA AGENT
+=============================
+class AlphaBetaAgent(MultiAgentSearchAgent):
+  treeDepth=0    	  	# GLOBAL STATIC VARIABLE TO KEEP TRACK OF THE TREE DEPTH
+  numGAgents=0        		# GLOBAL STATIC VARIABLE TO KEEP TRACK OF THE TOTAL NUMBER OF GHOST AGENTS
+  finalMoves={}
+ 
+  def Max(self,x,y):        	# FUNCTION TO RETURN THE MAX OF TWO NUMBERS
+    if(x>y):
+     return x
+    else:
+     return y
+
+ 
+  def Min(self,x,y):        	# FUNCTION TO RETURN THE MIN OF TWO NUMBERS
+    if(x<y):
+      #print "returning x",x
+      return x
+    else:
+      return y
+
+
+  def MaxValue(self,state,tmpdepth,alpha,beta): 		# MAX VALUE FUNCTION TAKING DEPTH ALPHA BETA AND GAME STATE AS ITS ARGUMENT
+    if(tmpdepth==0):					# IF THIS IS THE TERMINAL GAME STATE THEN RETURNING THE GAME SCORE
+      return state.getScore()
+    v=float('-inf')                  			# ASSIGNING MINUS INFINITY
+    pacLegalActions=state.getLegalActions(0)    	# GET PACMANS LEGAL ACTIONS
+    if Directions.STOP in pacLegalActions: pacLegalActions.remove(Directions.STOP)
+    pacSuccessors = [(state.generateSuccessor(0, Paction), Paction) for Paction in pacLegalActions] # PACS SUCC STATES
+    for nextPstate, Paction in pacSuccessors:     	# CHECKING ALL THE NEXT GAME STATES
+        tmpV=self.MinValue(nextPstate,1,tmpdepth,alpha,beta)
+        if(tmpdepth==self.depth):		 	# IF TEMP DEPTH IS EQUAL TO SELF.DEPTH THEN UPDATING THE GLOABAL MOVES DICT
+          MinimaxAgent.finalMoves.update({tmpV:(nextPstate,Paction)})
+        v=self.Max(v,tmpV)    				# CALLING MIN-VALUE
+        if(v>=beta):					# CHECKING IF ANY PRUNING IF POSSIBLE
+          return v					# IF YES PRUNING IT HERE
+        aplha=self.Max(alpha,v)
+    return v
+    util.raiseNotDefined()
+   
+  def MinValue(self,minState,gIndex,tmpdepth,mAlpha,mBeta):	# MIN_VALUE FUNCTION WITH GAME STATE, GHOST INDEX, ALPHA, BETA AND DEPTH AS ARGUEMENT
+    currIndex=gIndex
+    minAlpha=mAlpha
+    minBeta=mBeta
+    if(tmpdepth==0):						# IF LEAF GAME STATE THEN RETURNING THE GAME SCORE
+      tmp=scoreEvaluationFunction(minState)
+      return minState.getScore()
+    v=float('inf')						# ASSINGNING V INFINITY
+    if(currIndex<MinimaxAgent.numGAgents):			# IF THERE ARE OTHER GHOST MUST CALL MIN_VALUE AGAIN
+      gLegalActions=minState.getLegalActions(currIndex)
+      gSuccessors = [(minState.generateSuccessor(currIndex, Gaction), Gaction) for Gaction in gLegalActions]
+      if (len(gSuccessors)==0):					# IF WE GET A GHOST WITH NO SUCCESSOR RETURNING GAME SCORE HERE
+        return minState.getScore()
+      for nextGstate, Gaction in gSuccessors:
+        tmpV=self.MinValue(nextGstate,currIndex+1,tmpdepth,minAlpha,minBeta)	# CALLING MIN VALUE WITH FOR NEXT GHOST
+        v=self.Min(v,tmpV)
+        if(v<=minAlpha):					# CHECKING IF AMY PRUNING IS POSSIBLE
+          return v					# IF YES PRUNING IS DONE HERE
+        minBeta=self.Min(minBeta,v)
+    elif(tmpdepth>0):				# IF I AM THE LAST GHOST MUST CALL MAX FUNCTION FOR THE PACMAN
+      tmpdepth=tmpdepth-1
+      gLegalActions=minState.getLegalActions(currIndex)
+      gSuccessors = [(minState.generateSuccessor(currIndex, Gaction), Gaction) for Gaction in gLegalActions]
+      if (len(gSuccessors)==0):			# IF THERE ARE NO SUCCESSOR RETURNIG THE GAME SCORE
+        return minState.getScore()
+      for nextGstate, Gaction in gSuccessors:
+        tmpV=self.MaxValue(nextGstate,tmpdepth,mAlpha,mBeta)	# CALLING MAX VALUE 
+        v=self.Min(v,tmpV)
+        if(v<=minAlpha):				# CHECKING IF ANY PRUNING IS POSSIBLE OR NOT
+          return v
+        minBeta=self.Min(minBeta,v)
+    return v
+    util.raiseNotDefined()
+   
+  def getAction(self, gameState):
+    MinimaxAgent.numGAgents=gameState.getNumAgents()-1    # STATIC VARIABLES TO TRACK OF THE NUMBER OF GHOST IN THE MAZE
+    MinimaxAgent.treeDepth=self.depth
+    MinimaxAgent.finalMoves={}
+    move=self.MaxValue(gameState,MinimaxAgent.treeDepth,float('-inf'),float('inf'))
+    return MinimaxAgent.finalMoves[move][1]
+    util.raiseNotDefined()
+
+
+***********************************************************************************************************************************
+						END OF CODES.TXT
+***********************************************************************************************************************************

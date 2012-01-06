@@ -1,0 +1,32 @@
+ back up dfs python code
+
+
+print "Start:", problem.getStartState()
+	print "Is the start a goal?", problem.isGoalState(problem.getStartState())
+	print "Start's successors:", problem.getSuccessors(problem.getStartState())
+	
+	openStack=util.Stack() 	# CREATING A STACK TO PUSH THE CHILDREN
+	closedQ=util.Queue()		# CREATING A QUEUE TO MAINTAIN THE CLOSED STATES
+	start=problem.getStartState()
+	openStack.push(start)	# INTIALLY PUSING THE START STATE INTO THE STACK	
+	while (not(openStack.isEmpty())):	# WHILE THE STACK IS NOT EMPTY REPEAT THE BELOW CODE SECTION
+		currNode=openStack.pop()
+		closedQ.push(currNode)
+		print "the current node is ", currNode		
+		if (problem.isGoalState(currNode)):
+			print "Yeah!!!!! Yeah!!!! Yeah!!! goal reached"
+			#print " the path is ",closedQ.items()
+			break
+		children=problem.getSuccessors(currNode)
+		for child in children:
+			print "The child now is ",child[0]
+			if(openStack.list.count(child[0])==0 and closedQ.list.count(child[0])==0):
+				print "pusing it into stack"
+				openStack.push(child[0])
+			else:
+				print "pushing not needed"
+
+	while (not(closedQ.isEmpty())):
+		item=closedQ.pop()
+		print " the item now is ",item
+	util.raiseNotDefined()

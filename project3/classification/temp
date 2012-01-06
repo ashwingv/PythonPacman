@@ -1,0 +1,7 @@
+Doing classification
+--------------------
+data:		digits
+classifier:		naiveBayes
+using enhanced features?:	False
+training set size:	100
+using automatic tuning for naivebayes

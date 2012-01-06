@@ -1,0 +1,5124 @@
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Start: (5, 5)
+Is the start a goal? False
+Start's successors: [((5, 4), 'South', 1), ((4, 5), 'West', 1)]
+the node is  ((5, 4), 'South', 1)
+the node is  ((4, 5), 'West', 1)
+the current child is  ((4, 5), 'West', 1)
+the current node is  (4, 5)
+The child now is  (5, 5)
+pusing it into stack
+The child now is  (3, 5)
+pusing it into stack
+the current child is  ((3, 5), 'West', 1)
+the current node is  (3, 5)
+The child now is  (4, 5)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'West', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
+pusing it into stack
+the current child is  ((1, 5), 'West', 1)
+the current node is  (1, 5)
+The child now is  (1, 4)
+pusing it into stack
+The child now is  (2, 5)
+pusing it into stack
+the current child is  ((2, 5), 'East', 1)
+the current node is  (2, 5)
+The child now is  (3, 5)
+pusing it into stack
+The child now is  (1, 5)
