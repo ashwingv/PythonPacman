@@ -1,0 +1,8 @@
+This is a project that I did as a part my AI Class @ USC.
+
+Here we took a code for pacman written in python. 
+I implemented different AI algorithms, so that the pacman can find its food inside the maze without being hit by the ghosts.
+
+Initially the pacman agent is dumb i.e it cannot find the food inside the maze. 
+As we moved through the course we implemented various AI algorithms to enhance the behaviour of thre pacman agent to find
+food in the maze.
